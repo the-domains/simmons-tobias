@@ -1,7 +1,19 @@
-layout_spectrum: 0.2744681
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.6851064
 color:
   saturation: 0.8654243
-  brandStrength: 0.281326
+  brandStrength: 0.2319149
   lightness: 0.2737505
   brandColors:
     - '#010E4B'
@@ -10,5 +22,5 @@ color:
     - '#4B395C'
     - '#A36F90'
   rhythmicContrast: 0.1405475
-typography_spectrum: 0.6851064
+layout_spectrum: 0.2744681
 name: Simmons Tobias
